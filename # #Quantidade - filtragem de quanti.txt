@@ -1,0 +1,7 @@
+# #Quantidade - filtragem de quantidade da tabela1
+# quantidade_3 = pagina3_cotacao_02[pagina3_cotacao_02['indice05'].str.len() > 0]
+# quantidade_3 = pagina3_cotacao_02['indice05'].str.contains('Qtde.\r')
+# quantidade_3 = pagina3_cotacao_02['indice05'].str.replace('Qtde.\r','')
+# quantidade_3 = quantidade_3[quantidade_3.str.len() > 0]
+# quantidade_3 = quantidade_3[~quantidade_3.str.contains('Preço Total\r')]
+# quantidade_3 = quantidade_3.reset_index(drop=True)
